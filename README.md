@@ -9,7 +9,7 @@ To be able to run docker-app on Toradex boards, we need build a local cnab-app-b
 
 # How to build
 
-Firstly you need get a cnab-run binary by 'bitbake docker' in Torizon platform, and find it in ${DEPLOY_DIR_IMAGE} directory.
+Firstly you need get a cnab-run binary by `bitbake docker-app` in Torizon platform, and find it in ${DEPLOY_DIR_IMAGE} directory.
 
 Then copy cnab-run to the top directory of this project, and run:
 
